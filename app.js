@@ -23,6 +23,6 @@ app.use("/event", event);
 
 let port = 8000;
 
-app.listen(port, () => {
+app.listen(process.env.PORT || port, () => {
   console.log("O servidor quer esta sendo executado na porta: " + port);
 });
