@@ -3,7 +3,7 @@ const router = express.Router();
 var cors = require('cors')
 
  
-app.use(cors())
+router.use(cors())
  
 
 // Require the controllers WHICH WE DID NOT CREATE YET!!
