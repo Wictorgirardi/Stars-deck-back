@@ -6,7 +6,7 @@ const user = require("./routes/user.route"); // Importando rotas de usuarios
 const event = require("./routes/event.route"); // Importando rotas de eventos
 const app = express();
 var cors = require('cors');
-app.use(cors());
+app.use(cors())
 
 // Configurando o mongo
 const mongoose = require("mongoose");
